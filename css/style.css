@@ -2,6 +2,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	color: #777;
+	background-color: #ff6796;
 }
 header{
 	position: absolute;
@@ -39,7 +40,8 @@ padding: 5% 5%;
 }
 
 #work{
-	padding: 7% 0;
+	padding: 7% 0 15%;
+	background-color: #FFFFFF;
 }
 #work .titulo-1 {
 	color:  #444444;
@@ -56,7 +58,6 @@ padding: 5% 5%;
 }
 #products{
 	padding: 10% 0;
-	margin-top: 10%;
 	background-color: #01BEFE;
 }
 .titulo-2{
@@ -71,8 +72,9 @@ padding: 5% 5%;
 #products img:hover{
 	filter: grayscale(.7)
 }
-#products h3{
+#products .titulo-1{
 	color: #000000;
+	text-align: center;
 }
 #features {
 	padding: 10% 0;
@@ -81,6 +83,47 @@ padding: 5% 5%;
 }
 #features i{
 	font-size: 150px;
+}
+#about {
+	clip-path: polygon(40% 4%, 54% 1%, 70% 3%, 86% 3%, 100% 0, 100% 100%, 0 100%, 0 0, 13% 5%, 28% 1%);
+	padding: 5% 0;
+	background-color: #FFFFFF;
+}
+#about .titulo-2{
+	text-align: left;
+	color: #444444;
+	margin-bottom: 0;
+	
+}
+#team {
+	padding: 10% 0;
+	background-color: #01BEFE;
+	color: #FFFFFF;
+}
+#team img{
+	border-radius: 50%;
+	height: 80%;
+	width: 100%;
+	border: 30px solid #FC98B7;
+}
+#team i{
+	padding: 10px;
+	color: #FFFFFF;
+	border-radius: 20%;
+	border: 3px solid #FFFFFF;
+}
+#team i:hover{
+	color: #FFFFFF;
+	background-color: #FF6796;
+}
+.btn-light {
+font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-size: 15px;
+	background-color: #01BEFE;
+	border: hidden;
+	border-radius: 50px;
+	padding: 15px 30px;
 }
 footer {
 	padding: 10% 0 0 0;
